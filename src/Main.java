@@ -5,12 +5,8 @@ public class Main {
 
         if (ticketPrice >= 20) {
            bonusMiles = ticketPrice / 20;
-            System.out.println("You have been credited " + bonusMiles + " miles");
-        } else {
-            System.out.println("Miles not credited");
+           System.out.println("You have been credited " + bonusMiles + " miles");
         }
-
-
-        }
+      }
     }
 
